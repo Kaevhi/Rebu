@@ -18,6 +18,7 @@
     top: 50%; /* Position at the vertical center */
     right: 0; /* Position at the right corner */
     transform: translateY(-50%); /* Center vertically */
+    background-color: #EAE7DC;
 }
 
 

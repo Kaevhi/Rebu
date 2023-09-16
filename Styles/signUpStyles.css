@@ -14,12 +14,9 @@ body{
 
 form{
     display:inline;
-<<<<<<< HEAD
-=======
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
->>>>>>> 5e1cfbb58866fc38b3fef892bd5958ff9d1133f3
 }
 
 .line{

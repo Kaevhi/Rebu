@@ -836,3 +836,9 @@ margin-top: 0;
  
 
 }
+
+.profile_icon{
+    width: 1500px; /* Adjust logo width as needed */
+    opacity: 0.8; /* Adjust opacity to your preference */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+}

@@ -1,0 +1,42 @@
+body{
+    font-family: Roboto Slab;
+}
+
+.first-fieldset{
+    max-width:750px;
+    width:500px;
+    margin:auto;
+    margin-top:15px;
+    text-align: center;
+}
+
+.line{
+    border:none;
+    border-bottom:2px solid black;
+    margin-top:-10px;
+}
+
+.after{
+    border:none;
+    border-bottom:1px solid blue;
+    padding:0;
+    width:50px;
+    margin-left:146px;
+
+}
+
+.Rebu-header{
+    font-size:50px;
+    margin:auto;
+}
+
+.input-text{
+    text-align:left;
+}
+
+
+.submit-button{
+    margin-top:30px;
+}
+
+

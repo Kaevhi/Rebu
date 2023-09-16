@@ -3,19 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles/signUpStyles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
     <title>Rebu</title>
 </head>
 <body>
 
-    <fieldset>
-        <p>Rebu</p>
-        
-    </fieldset>
-
-    <fieldset>
+    <fieldset method="post" action="unknown" class="first-fieldset"><!--sending the information-->
+        <p class = "Rebu-header">Rebu</p>
         <p>Create a Rebu Account</p>
         <p>One step toward your future</p>
+        <fieldset class="line"></fieldset>
+        
+        <form>
+
+        <fieldset class="after">
+        <p class="input-text">
+        First Name:
+        </p>
+         <input id="name" type = "text" placeholder="First name" required>
+        </fieldset>
+        <fieldset class="after">
+        <p class="input-text">
+        Last Name:
+        </p>
+        <input id="name" type="text" placeholder="Last name" required>
     </fieldset>
+        <fieldset class="after">
+            <p class="input-text">Email Address:</p> <input id="email-address" type="email" placeholder="Email" required>
+        </fieldset>
+        <fieldset class="after">
+            <p for="password" class="input-text">
+                Password
+            </p>
+            <input type="password" placeholder="Password">
+
+            
+        </fieldset>
+
+        <input type="submit" class="submit-button">
+        
+    </fieldset>
+</form>
     
 </body>
 </html>

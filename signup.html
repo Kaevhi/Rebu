@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Styles/signUpStyles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Rebu</title>
+</head>
+<body>
+
+    <fieldset method="post" action="unknown" class="first-fieldset"><!--sending the information-->
+        <p class = "Rebu-header">Rebu</p>
+        <p>Create a Rebu Account</p>
+        <p>One step toward your future</p>
+        <fieldset class="line"></fieldset>
+        
+        <form>
+        <div class="grid-container">
+            <div class="grid-item">
+        <fieldset class="after">
+        <p class="input-text">
+        First Name:
+        </p>
+         <input id="name" type = "text" placeholder="First name" required>
+        </fieldset>
+       </div>
+       <div class="split-line first-split-line"><!--this is a line--></div>
+       <a href="google.com">
+       <div><fieldset class="company-boxes"><div class="company-boxes-grid"><img class="google-logo" src="Images/Google_Icons-09-512.webp">
+    <p class="company-boxes-grid"><label class="company-text">Google</label></p></div>
+    </fieldset>
+    </div>
+    </a>
+        <div class="grid-item">
+        <fieldset class="after">
+        <p class="input-text">
+        Last Name:
+        </p>
+        <input id="name" type="text" placeholder="Last name" required>
+    </fieldset>
+    </div>
+    <div class="split-line"><!--this is a line--></div>
+    <a href="https://github.com/">
+    <div><fieldset class="company-boxes"><div class="company-boxes-grid"><img src="Images/GitHub-logo.png" class="github-logo"><p class="company-boxes-grid"><label class="company-text">GitHub</label></p></div></fieldset></div>
+</a>
+<div class="grid-item">
+        <fieldset class="after">
+            <p class="input-text">Email Address:</p> <input id="email-address" type="email" placeholder="Email" required>
+        </fieldset>
+        </div>
+    <div class="split-line"><!--this is a line--></div>
+    <a href="outlook.office.com/owa/knights.ucf.edu">
+    <div><fieldset class="company-boxes"><div class="company-boxes-grid"><img src="Images/Microsoft_Office_Outlook_(2018–present).svg.webp" class="outlook-logo"><p class="company-boxes-grid"><label   class="company-text">Outlook</label></p></div></fieldset></div>
+</a>
+        <div class="grid-item">
+        <fieldset class="after">
+            <p for="password" class="input-text">
+                Password
+            </p>
+            <input type="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+        </fieldset>
+        </div>
+
+    <div class="split-line last-split-line"><!--this is a line--></div>
+    <div><!--this is a linklink--></div>
+
+    <!--div used for temp alignment-->
+    <div></div>
+
+    <input type="submit" class="submit-button" value="Submit">
+    </div>
+    </fieldset>
+</form>
+    
+</body>
+</html>

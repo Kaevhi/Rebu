@@ -12,10 +12,6 @@ body{
  
 }
 
-form{
-    display:inline;
-
-}
 
 .line{
     border:none;
@@ -48,7 +44,7 @@ form{
     border:solid;
     margin:auto;
     width:-10px;
-    height:100%;
+    height:150%;
     display:inline;
 }
 
@@ -75,6 +71,7 @@ form{
 .grid-item{
     justify-content:center;
     margin-left:30%;
+    margin-top:-20%;
 }
 
 .company-boxes{
@@ -119,7 +116,9 @@ form{
 }
 
 .submit-button{
-    margin-top:15%;
+    margin-top:35%;
     margin-bottom:5%;
 }
+
+
 

@@ -5,12 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Welcome to Firebase Hosting</title>
 
-    <!-- Firebase App (the core Firebase SDK) -->
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
-
-<!-- Firebase Auth -->
-<script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-auth.js"></script>
-
     <!-- update the version number as needed -->
     <script defer src="/__/firebase/10.4.0/firebase-app-compat.js"></script>
     <!-- include only the Firebase features as you need -->
@@ -27,7 +21,7 @@
       initialize the SDK after all desired features are loaded, set useEmulator to false
       to avoid connecting the SDK to running emulators.
     -->
-    <script defer src="/__/firebase/init.js?useEmulator=false"></script>
+    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
 
     <style media="screen">
       body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
@@ -52,45 +46,8 @@
       <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
     </div>
     <p id="load">Firebase SDK Loading&hellip;</p>
-    
+
     <script>
-      //ADDED
-      const auth = firebase.auth();
-
-function signUp() {
-    const email = document.getElementById('signupEmail').value;
-    const password = document.getElementById('signupPassword').value;
-    auth.createUserWithEmailAndPassword(email, password)
-        .then((userCredential) => {
-            console.log("User signed up:", userCredential.user);
-        })
-        .catch((error) => {
-            console.error("Error signing up:", error.message);
-        });
-}
-
-function login() {
-    const email = document.getElementById('loginEmail').value;
-    const password = document.getElementById('loginPassword').value;
-    auth.signInWithEmailAndPassword(email, password)
-        .then((userCredential) => {
-            console.log("User logged in:", userCredential.user);
-        })
-        .catch((error) => {
-            console.error("Error logging in:", error.message);
-        });
-}
-
-function logout() {
-    auth.signOut()
-        .then(() => {
-            console.log("User logged out");
-        })
-        .catch((error) => {
-            console.error("Error logging out:", error.message);
-        });
-}
-
       document.addEventListener('DOMContentLoaded', function() {
         const loadEl = document.querySelector('#load');
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
@@ -107,18 +64,6 @@ function logout() {
         // firebase.performance(); // call to activate
         //
         // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        //ADDED 
-        auth.onAuthStateChanged((user) => {
-    if (user) {
-        console.log("User is logged in:", user);
-        // Update UI accordingly (e.g., hide login/signup forms, show logout button)
-    } else {
-        console.log("User is logged out");
-        // Update UI accordingly (e.g., show login/signup forms, hide logout button)
-    }
-});
-
 
         try {
           let app = firebase.app();

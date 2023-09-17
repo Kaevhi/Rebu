@@ -28,7 +28,7 @@ form{
     padding:0;
     width:150px;
 }
-.typing:hover{
+.after:hover{
     animation-duration: 5.5s;
     animation-name: createBox;
 }

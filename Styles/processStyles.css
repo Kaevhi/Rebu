@@ -9,6 +9,7 @@ body{
     margin:auto;
     margin-top:15px;
     text-align: center;
+    border:none;
 }
 
 form{
@@ -23,9 +24,23 @@ form{
 }
 .after{
     border:none;
-    border-bottom:1px solid blue;
+    border-bottom:1px solid gray;
     padding:0;
     width:150px;
+}
+.after:hover{
+    animation-duration: 5.5s;
+    animation-name: createBox;
+}
+@keyframes createBox{
+    from{
+        width: 0px;
+        border-bottom:1px solid gray;
+    }
+    to{
+        width: 100%;
+        border-bottom:1px solid black;
+    }
 }
 
 .Rebu-header{
@@ -49,6 +64,7 @@ form{
     width:-10px;
     height:100%;
     display:inline;
+    
 }
 
 .first-split-line{
@@ -74,6 +90,7 @@ form{
 .grid-item{
     justify-content:center;
     margin-left:30%;
+    margin-bottom:50%;
 }
 
 .company-boxes{
@@ -140,4 +157,15 @@ form{
 }
 .slots-text{
     height:9px;
+}
+
+.typing{
+    border:none;
+    margin-bottom:5px;
+    padding:10px;
+   
+    background-color:#EAE7DC
+}
+.typing:focus{
+    outline:none;
 }

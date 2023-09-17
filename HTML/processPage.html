@@ -26,7 +26,7 @@
         <p class="input-text">
         Name:
         </p>
-         <input id="name" type = "text" placeholder="Name" required>
+         <input id="name" type = "text" placeholder="Name" class="typing" required>
         </fieldset>
        </div>
        <div class="split-line first-split-line"><!--this is a line--></div>
@@ -38,7 +38,7 @@
     </a>
     <div class="grid-item">
         <fieldset class="after">
-            <p class="input-text">Email Address:</p> <input id="email-address" type="email" placeholder="Email" required>
+            <p class="input-text">Email Address:</p> <input id="email-address" type="email" placeholder="Email" class="typing" required>
         </fieldset>
         </div>
     <div class="split-line"><!--this is a line--></div>
@@ -47,7 +47,7 @@
 </a>
 <div class="grid-item">
         <fieldset class="after">
-            <p class="input-text">Number:</p> <input id="numb" type="text" placeholder="Number" required>
+            <p class="input-text">Number:</p> <input id="numb" type="text" placeholder="Number" class="typing" required>
         </fieldset>
         </div>
     <div class="split-line"><!--this is a line--></div>
@@ -58,7 +58,7 @@
 
 <div class="drop-down">
     <fieldset class="after">
-        <label for="institution-num" class="slots-text">Choose Number of Institution Slots</label>
+        <label for="institution-num" class="slots-text number-slots">Choose Number of Institution Slots</label>
         <select name="institution-num" id="institution-num" onclick="handleSelectClick('institution')">
             <option value="Select">Select</option>
             <option value="1">1</option>
@@ -75,7 +75,7 @@
     <div><!--this is a linklink--></div>
     <div class="drop-down second-drop-down">
         <fieldset class="after">
-            <label for="skill-num" class="slots-text">Choose Number of Skill Stuff Slots<select name="skill-num" id="skill-num" onclick="handleSelectClick('skill')">
+            <label for="skill-num" class="slots-text number-slots">Choose Number of Skill Stuff Slots<select name="skill-num" id="skill-num" onclick="handleSelectClick('skill')">
                 <option value="Select">Select</option>
                 <option value="1">1</option>
                 <option value="2">2</option>
@@ -95,7 +95,7 @@
       <!--div used for temp alignment-->
       <div class="drop-down">
         <fieldset class="after">
-            <label for="experience-num" class="slots-text">Choose Number of Experience Slots
+            <label for="experience-num" class="experience-text number-slots">Choose Number of Experience Slots
             <select name="experience-num" id="experience-num" onclick="handleSelectClick('experience')" onkeydown="enterFunction(event)">
                 <option value="Select">Select</option>
                 <option value="1">1</option>

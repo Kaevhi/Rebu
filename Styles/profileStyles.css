@@ -1,0 +1,9 @@
+.resume-box{
+    margin:auto;
+    margin-top:10%;
+    display:grid;
+    grid-template-columns: 60% 1fr;
+    width:70%;
+    border-style:solid;
+    height:auto;
+}

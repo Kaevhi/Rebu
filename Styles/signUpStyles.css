@@ -1,7 +1,7 @@
 body{
     font-family: Roboto Slab;
+    background-color:#EAE7DC;
 }
-
 .first-fieldset{
     max-width:80%;
     min-width:20%;
@@ -9,7 +9,6 @@ body{
     margin:auto;
     margin-top:15px;
     text-align: center;
- 
 }
 
 form{
@@ -25,7 +24,7 @@ form{
     border:none;
     border-bottom:1px solid blue;
     padding:0;
-    width:50px;
+    width:150px;
 }
 
 .Rebu-header{
@@ -77,7 +76,7 @@ form{
 }
 
 .company-boxes{
-    margin-top:30%;
+    margin-top:65%;
     margin-left:-25%;
     height:auto;
     width:100%;
@@ -119,6 +118,25 @@ form{
 
 .submit-button{
     margin-top:15%;
-    margin-bottom:5%;
+    margin-bottom:10%;
+    height:50%;
+    border-radius:30px;
+    font-weight:bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.submit-button:hover{
+    cursor:pointer;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.drop-down{
+    margin-left:35%;
+    margin-top:10%;
+}
+.second-drop-down{
+    margin-left:34%;
+}
+.slots-text{
+    height:9px;
+}

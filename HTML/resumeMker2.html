@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Resume Builder</h1>
+        <p>Maker your resume easily in 5 minutes</p>
+    </div>
+    <div class="sec-1">
+        <h3>Personal Details</h3>
+        <form action="/submit" method="post">
+            <p>Name:</p>
+            <input id="name" name="full_name" type="text" placeholder="Full Name" required>
+            
+            <p>DOB:</p>
+            <input id="dob" name="date_of_brith" type="date" placeholder="mm/dd/yyyy" required>
+            
+            <p>Phone Number:</p>
+            <input id="phone-number" name="phone-number" type="number" placeholder="000-000-0000" required>
+            
+            <p>Email Address:</p>
+            <input id="email-address" name="email" type="email" placeholder="example@domain.com" required>
+            
+            <p>Adress:</p>
+            <input name="Address" type="text" placeholder="Current Address" title="Make sure it is a valid address">
+        
+            <br><br>
+
+
+        <div class="form-group mt-2">
+          <label for="profile-img">Profile Picture</label>
+          <input type="file" id="profile-img" accept="image/*" class="form-control" placeholder="upload profile picture" onchange="previewImage(event)">
+
+          <img src="#" alt="Uploaded Image" srcset="" style="display: none;" id="image-preview" class="img-thumbnail">
+        </div>
+        <div>
+            <h4>Links</h4>
+            <div class="form-group">
+                <label for="linkedin">LinkedIn
+                  <i class="fa-brands fa-linkedin"></i>
+                </label>
+                <input type="text" id="linkedin" class="form-control" placeholder="Enter LinkedIn URL">
+              </div>
+              <div class="form-group mt-1">
+                <label for="github">Github
+            
+                  <i class="fa-brands fa-github"></i>
+                </label>
+                <input type="text" id="github" class="form-control" placeholder="Enter Github URL">
+            </div>
+                <div class="form-group">
+                    <label for="instagram">Instagram
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </label>
+                    <input type="text" id="instagram" class="form-control" placeholder="Enter Instagram URL">
+                </div>
+        </div>
+        </form>
+
+        <form>
+            <h4>Professional Details</h4>
+                
+
+
+
+        </form>
+
+    </div>
+</body>
+</html>

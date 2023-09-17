@@ -1,0 +1,62 @@
+{
+  "basics": {
+    "name": "",
+    "email": "",
+    "phone": "",
+    "website": ""
+  },
+  "work": [
+    {
+      "company": "",
+      "position": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "",
+      "degree": "",
+      "endDate": ""
+    }
+  ],
+  "skills": [
+    {
+      "name": "",
+      "level": ""
+    },
+    {
+      "name": "",
+      "level": ""
+    }
+  ],
+  "projects": [
+    {
+      "name": "",
+      "description": "",
+      "url": ""
+    },
+    {
+      "name": "",
+      "description": "",
+      "url": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": ""
+    },
+    {
+      "language": ""
+    }
+  ],
+  "experience": [
+    {
+      "name": ""
+    },
+    {
+      "name": ""
+    }
+  ]
+}

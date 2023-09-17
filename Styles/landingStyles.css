@@ -313,6 +313,7 @@ filter: drop-shadow(0px 7px 4px rgba(0,0,0,.2));
 }
 
 
+
 /*menu header*/
 /* Nav Bar */
 .header {
@@ -903,7 +904,6 @@ margin-top: 0;
     float: none;
 }
  
-
 }
 
 .profile_icon{
@@ -911,3 +911,13 @@ margin-top: 0;
     opacity: 0.8; /* Adjust opacity to your preference */
     transition: opacity 0.3s ease; /* Add a smooth transition effect */
 }
+
+.image-size{
+  max-height: 200px;
+}
+.example-resumes{
+  margin-bottom:1000px;
+  height:auto;
+
+}
+

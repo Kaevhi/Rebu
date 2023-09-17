@@ -28,8 +28,8 @@ form{
     padding:0;
     width:150px;
 }
-.after:hover{
-    animation-duration: 5.5s;
+.typing:hover{
+    animation-duration: 2.5s;
     animation-name: createBox;
 }
 @keyframes createBox{
